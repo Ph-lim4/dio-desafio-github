@@ -35,5 +35,7 @@ A herança é um mecanismo da Orientação a Objeto que permite criar novas clas
 de classes já existentes, aproveitando-se das características existentes na classe a ser </br>
 estendida. Este mecanismo é muito interessante, pois promove um grande reuso e</br> reaproveitamento de código existente.
 
+#### Associação:
+Em programação orientada a objeto, uma associação define um relacionamento entre duas classes que permite que um objeto faça com que outro objeto realize uma ação em seu lugar. ... Um papel pode ser usado para distinguir dois objetos da mesma classe ao descrever seu uso no contexto da associação.
 
 
