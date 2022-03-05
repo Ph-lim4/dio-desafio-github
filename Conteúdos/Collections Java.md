@@ -8,4 +8,13 @@
  - **Algoritmos:** É a sequencia lógica, finita e definida de instruções que devem ser seguidas para resolver um problema.
 
 ### Hierarquia Collecions
- - <<Interface>>
+ - (Interface)Collection >> (Interface)Set >> HashSet >> LinkedHashSet.
+ - (Interface)Collection >> (Interface)Set >> >> >> TreeSet.
+ - (Interface)Collection >> (Interface)List >> ArrayList.
+ - (Interface)Collection >> (Interface)List >> Vector.
+ - (Interface)Collection >> (Interface)List >> LinkedList.
+ - (Interface)Map >> Hashtable.
+ - (Interface)Map >> HashMap >> LinkedHashMap.
+ - (Interface)Map >> >> >> TreeMap.
+ - Object >> Arrays.
+ - Object >> Collections.  
