@@ -18,3 +18,23 @@
  - (Interface)Map >> >> >> TreeMap.
  - Object >> Arrays.
  - Object >> Collections.  
+
+## Lists
+### Coleções com interações ordenadas: Listas
+Chamada da Interface List: java.util.List
+
+ - Elementos duplicados e garante ordem de inserção.
+ - "ArrayList deve ser usado onde mais operações de pesquisa são necessárias, e LinkedList deve ser usado onde mais operações de inserção e exclusão são necessárias."
+ - Criação: 
+    - List< Double> notas = *new* ArrayList< Double>();
+ - Adição: 
+    - notas.add(7.0); 
+    - notas.add(4, 8d); *Dessa forma se escolhe a posição e o dado*.
+ - Substituição:
+    - notas.set(notas.indexOf(5d), 6.0);
+ - Conferir se há o elemento dentro da lista:
+    - notas.contains(5d);
+ - Verificar em uma posição especifica:
+    - notas.get(2);
+ - Exibir a menor nota:
+    - Collections.min(notas);
