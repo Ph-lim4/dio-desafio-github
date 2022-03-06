@@ -25,6 +25,7 @@ Chamada da Interface List: java.util.List
 
  - Elementos duplicados e garante ordem de inserção.
  - "ArrayList deve ser usado onde mais operações de pesquisa são necessárias, e LinkedList deve ser usado onde mais operações de inserção e exclusão são necessárias."
+ #### Comandos:
  - Criação: 
     - List< Double> notas = *new* ArrayList< Double>();
  - Adição: 
@@ -36,5 +37,18 @@ Chamada da Interface List: java.util.List
     - notas.contains(5d);
  - Verificar em uma posição especifica:
     - notas.get(2);
- - Exibir a menor nota:
+ - Exibir a menor e maior nota:
     - Collections.min(notas);
+    - Collections.max(notas);
+ - Soma dos valores:
+    - Interator< Double> iterator = notas.iterator();
+ - Remoção:
+    - notas.remove(posição ou item)
+ - Apagar toda a lista:
+    - notas.clear();
+ - Verificar se esta vazia:
+    - notas.isEmpty();
+
+## Set
+### Coleções singulares: Set
+Chamada da Interface List: java.util.Set
