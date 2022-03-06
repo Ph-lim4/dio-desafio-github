@@ -117,6 +117,9 @@ Qualquer interface com um SAM (Single Abstract Method) é uma interface funciona
 
  ### Reference Method
  É um novo  recurso do java 8 que permite fazer referência a um método ou construtor de uma classe (de forma funcional) e assim indicar que ele deve ser utilizado num ponto específico do código, deixando-o mais simples e legível. Para utiliza-lo, basta informar uma classe ou referência seguida do símbolo "::" e o nome do método sem os parênteses no final.
+
+ ### Sreams API
+ A Streams API traz uma nova opção para a manipulação de coleções em Java seguindo os princípios da programação funcional. Combinada com as expressões lambda, ela proporciona uma forma diferente de lidar com conjuntos de elementos, oferecendo ao desenvolvedor uma maneira simples e concisa de escrever código que resulta em facilidade de manutenção e paralelização sem efeitos indesejados em tempo de execução.
  
  #### Comandos:
  ##
